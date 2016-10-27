@@ -1,12 +1,8 @@
-## Read Before Continue
-
-###All request headers must contain `apikey` field.
-
 ## Glossary
 
 Keywords : `Rideshare`, `Travel-intent-pattern`, `Travel-intent`
 
-#### **Travel-intent**
+#### Travel-intent
 Travel intent is a 'desire to move from A to B in a with a time window placed on either the departure or the arrival'.  You can either create your own travel-intent or you can let a travel-intent-pattern generate it for you.
 
 ###### *Example 1: User wants to arrive at work between 08:00 - 08:30. He/she can drive. So conceptually he/she can be a passenger or a driver. We can create our Travel-intent as follows:*
@@ -88,7 +84,7 @@ Matched travel intents will be suggested
 - Best suggestion for a user is the suggestion that has highest score.
 
 
-####FORTH PIC
+#### State Diagram
 How rideshare suggestions will be accepted by users
 - When a rideshare born, its state will be new.
 - When rideshare is in new state; driver or passenger can accept or decline. If one of them declines in any situation, rideshare is declined and will be deleted.

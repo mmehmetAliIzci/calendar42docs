@@ -1,4 +1,13 @@
-Scenario:
+#### **IMPORTANT**
+All request headers must contain `apikey` field.
+
+#### Getting api-key
+
+To get an api-key, you have to sign-up in our developer portal.
+
+Get your developer api-key  [here](https://docs.c42.io/).
+
+#### Scenario:
 
 Lets say, there are 3 people who each own a car. All of them want to arrive at work at the same location at the same time. However, their homes are far away from each other. Our system will find the best match between all their travel-intents and create rideshares. Ideally all of them will have 2 rideshare options each. After the rideshares are created, users who are declared by driver_id and passenger_id should accept the rideshare. (You can see the rideshare state flow in the rideshare/states).
 
